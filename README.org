@@ -1,0 +1,9 @@
+
+* Tasmota Sonoff RF Bridge 433
+
+** Source 
+https://tasmota.github.io/docs/devices/Sonoff-RF-Bridge-433/#sending-commands-with-portisch-firmware
+
+** How to
+   - Copy the JSON payload output from the Console and paste it in the online converter and click Convert e.g., {"RfRaw":{"Data":"AA B1 03 07F9 0124 37DC 010101010101101001010101101010100102 55"}}
+   - In the command line give the B1 message string and the retries value (in decimal): e.g., BitBucketConverter.py "AA B1 04 07EB 0157 00FD 3EBC 010101010101101001010101101010100103 55" 20
