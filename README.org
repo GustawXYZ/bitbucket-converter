@@ -1,3 +1,4 @@
+* Moved to: https://codeberg.org/GustawXYZ/bitbucket-converter
 
 * Tasmota Sonoff RF Bridge 433
 
